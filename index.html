@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Special Person</title>
+    <!-- ======= Icons ======== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="logo" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <!-- ===== Font awesome ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ==== Link CSS ==== -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- ========= Audio =========== -->
+    <audio id="lagu" src="assets/lagu.mp3" preload="auto"></audio>
+    <!-- ==== header ==== -->
+    <header class="header container">
+        <a href="#" class="icon"><i class="ri-heart-line"></i><span>Amanda</span></a>
+
+            <nav class="navbar">
+                <ul class="list">
+                    <li>
+                        <a href="#Home" class="link">
+                            <i class="ri-arrow-right-up-line"></i><span>Home</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#About" class="link">
+                            <i class="ri-arrow-right-up-line"></i><span>About</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#Image" class="link">
+                            <i class="ri-arrow-right-up-line"></i><span>Image</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="special-icon" id="menu">
+                <a href="#"><i class='bx bx-menu' id="menu-icon"></i></a>
+                <a href="https://instagram.com/devrndaa_" target="_blank">
+                    <i class="ri-instagram-line"></i>
+                </a>
+                <a href="https://tiktok.com/@dvrndaa_" target="_blank">
+                    <i class="ri-tiktok-fill"></i>
+                </a>
+            </nav>
+    </header>
+
+    <!-- ========= HOME ============== -->
+    <section id="Home" class="beranda">
+        <div class="content">
+            <img src="assets/bear.gif" alt="Mwah">
+            <h1 data-text="A M A N D A">A M A N D A</h1>
+        </div>
+    </section>
+
+    <!-- ========= ABOUT ======== -->
+    <section class="about" id="About">
+        <div class="wrapper">
+            <div class="item item1"><span>ABOUT HER</span></div>
+            <div class="item item2"><span>ABOUT HER</span></div>
+            <div class="item item3"><span>ABOUT HER</span></div>
+            <div class="item item4"><span>ABOUT HER</span></div>
+            <div class="item item5"><span>ABOUT HER</span></div>
+            <div class="item item6"><span>ABOUT HER</span></div>
+            <div class="item item7"><span>ABOUT HER</span></div>
+            <div class="item item8"><span>ABOUT HER</span></div>
+        </div>
+        <div class="scroll-reveal">
+            <h2 class="section-title">About Her</h2>
+            <p>Dia Bernama Amanda, dia adalah seseorang yang sangat special. Dia bener-bener cuek dan super pengertian. Dia selalu ada tiap gue butuh, ngerti banget perasaan gue bahkan tanpa gue ngomong banyak, yaaa.. walau gue suka buat dia sedih sih hehe. Nggak cuma itu, dia juga sabar parah sama semua tingkah gue, intinya dia bikin nyaman banget der! Setiap hari, dia selalu kasih perhatian kecil yang bikin gue merasa spesial. Pokoknya beruntung banget punya diaaaa!</p>
+        </div>
+    </section>
+
+    <!-- ================ Image =================== -->
+    <section class="image-container" id="Image">
+
+        <div class="grid">
+            <div class="row row-1">
+                <div class="col col-1">
+                    <div class="col-box">
+                        <h1 class="tulisan">
+                            Human History, <br />
+                            Amanda Eunola
+                        </h1>
+                    </div>
+                </div>
+                <div class="col col-2">
+                    <div class="col-box">
+                        <img src="assets/image/slider1 (1).png" alt="">
+                    </div>
+                    <div class="col-box">
+                        <img src="assets/image/slider1 (2).png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row row-2">
+                <div class="col-box box2">
+                    <img src="assets/image/slider1 (5).png" alt="">
+
+                </div>
+                <div class="col-box box2">
+                    <img src="assets/image/slider1 (8).png" alt="">
+
+                </div>
+            </div>
+            <div class="row row-3">
+                <div class="col-box box3">
+                    <img src="assets/image/slider1 (7).png" alt="">
+                </div>
+                <div class="col-box box3">
+                    <img src="assets/image/slider1 (6).png" alt="">
+                </div>
+            </div>
+    </section>
+
+    <script>
+        window.addEventListener('click', () => {
+            document.getElementById('lagu').play();
+        });
+    </script>
+</body>
+</html>
